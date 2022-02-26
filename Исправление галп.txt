@@ -1,0 +1,6 @@
+npm i gulp-sass@latest
+npm i sass
+
+Поменять импорт в галпфайле вот так
+
+const sass = require('gulp-sass')(require('sass'));
